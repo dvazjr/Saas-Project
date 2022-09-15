@@ -1,0 +1,376 @@
+@media screen and (max-width: 768px) {
+  [aria-expanded="true"] .bg-vector1 {
+    background: var(--white);
+  }
+
+  [aria-controls="navbarDropdown"] {
+    display: block;
+    margin-right: 2em;
+    margin-top: 2rem;
+  }
+
+  [aria-expanded="false"] ~ ul {
+    display: none;
+  }
+
+  [aria-expanded="true"] ~ ul {
+    display: flex;
+    z-index: 4;
+    justify-content: center;
+    position: absolute;
+    top: 9rem;
+    padding: 0;
+    background-color: var(--white);
+    width: 100%;
+    max-width: 45.875rem;
+    height: 100%;
+    padding-top: 4rem;
+  }
+
+  [aria-expanded="true"] ~ ul li a {
+    margin-right: var(--size-20);
+    color: var(--font-color-dark);
+  }
+
+  .bg-vector1 {
+    height: 36.313rem;
+  }
+
+  .title {
+    padding-right: var(--size-40);
+    text-align: center;
+  }
+
+  .title-left h2 {
+    margin: auto;
+    padding-bottom: var(--size-20);
+  }
+
+  .title-right {
+    margin: auto;
+    padding-left: 3rem;
+    grid-auto-columns: 13.25rem;
+  }
+
+  .benefits-title {
+    margin-top: 7rem;
+  }
+
+  .benefits-grid {
+    grid-template-columns: repeat(auto-fit, minmax(13.9rem, 1fr));
+  }
+
+  .get-started {
+    grid-template-columns: repeat(auto-fit, minmax(22.25rem, 1fr));
+    margin-bottom: 14.25rem;
+  }
+
+  .cta {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle-columns {
+    max-width: 9rem;
+    margin-bottom: 0;
+  }
+
+  .circle-columns h3 {
+    font-size: medium;
+  }
+
+  .hubspot-container {
+    flex-direction: column;
+    margin-top: 8rem;
+  }
+
+  .hubspot-left {
+    margin-bottom: var(--size-100);
+  }
+
+  .hubspot-right {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .trust-container {
+    margin-top: 14rem;
+  }
+
+  .pricing-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pricing {
+    align-items: center;
+  }
+
+  .pricing p {
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .squares-container {
+    margin-top: 5rem;
+  }
+
+  .testimonial-container {
+    flex-wrap: wrap;
+    max-height: 22rem;
+    gap: 4rem;
+  }
+
+  .testimonial-container hr {
+    max-width: 21rem;
+  }
+
+  .headshots {
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .acknowledge div {
+    margin-right: 3rem;
+  }
+
+  .top-footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    flex-basis: 30%;
+  }
+
+  .top-footer-1 {
+    flex-basis: 35%;
+  }
+
+  .top-footer-2 {
+    flex-basis: 25%;
+  }
+
+  .top-footer-3 {
+    flex-basis: 25%;
+  }
+
+  .top-footer-4 {
+    flex-basis: 23%;
+    margin-left: 37%;
+  }
+
+  .top-footer-5 {
+    flex-basis: 24%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    max-width: 375px;
+  }
+
+  .title {
+    grid-template-columns: repeat(auto-fit, minmax(18.438rem, 1fr));
+  }
+  .title-left {
+    padding-top: var(--size-80);
+  }
+  .title-left h2 {
+    font-size: var(--size-22);
+    font-weight: 500;
+  }
+
+  .title-right {
+    grid-auto-columns: 6.25rem;
+    padding-left: 0;
+  }
+
+  .title-right .img1 {
+    left: -0.375rem;
+  }
+
+  .title-right .img2 {
+    left: 0.375rem;
+  }
+
+  .title-right .img3 {
+    left: 2.375rem;
+  }
+
+  .title-right .img4 {
+    left: 1.813rem;
+  }
+
+  .title-right .img5 {
+    left: 5.188rem;
+  }
+
+  .title-right .img6 {
+    left: 6.5rem;
+  }
+
+  .benefits-title {
+    margin: 5rem 0 5rem 0;
+  }
+
+  .benefits-title h3 {
+    line-height: 1.5;
+  }
+
+  .get-started {
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(18.25rem, 1fr));
+    margin-bottom: 2rem;
+  }
+
+  .get-started .cta {
+    padding: 0 0.3rem 0 0.3rem;
+  }
+
+  .why-front {
+    padding: 0 2rem 0 2rem;
+    text-align: center;
+  }
+
+  .circles-container {
+    flex-direction: column;
+    max-width: 10.25rem;
+  }
+
+  .line {
+    border-color: transparent;
+  }
+
+  .circles-container {
+    padding-left: 2rem;
+  }
+
+  .h3-headers {
+    text-align: left;
+    padding-left: 2rem;
+  }
+
+  .circle-columns {
+    flex-direction: row;
+    margin-bottom: 1rem;
+  }
+
+  .outer-circle {
+    height: var(--size-60);
+    width: var(--size-60);
+  }
+
+  .inner-circle {
+    left: -65px;
+    top: -16px;
+  }
+
+  .circle-columns.end .outer-circle > div {
+    padding: 0 var(--size-10);
+    border-top: transparent;
+    border-color: transparent;
+    height: 1px;
+    line-height: 0.1em;
+    width: 157px;
+    position: relative;
+    top: 40px;
+    left: 5.2rem;
+  }
+
+  .circle-columns.end .inner-circle-right {
+    left: -65px;
+    top: -16px;
+  }
+
+  .video-lg-container {
+    height: 12rem;
+    margin: 0 1rem 0 1rem;
+  }
+
+  .dots-bg {
+    bottom: -8rem;
+  }
+
+  .christina-pic {
+    height: 338px;
+    width: 494px;
+    margin-right: -130px;
+    margin-top: 8rem;
+  }
+
+  .hubspot-left {
+    margin-bottom: var(--size-40);
+  }
+
+  .hubspot-right h3 {
+    text-align: center;
+  }
+
+  .top-footer-1 img {
+    position: relative;
+    left: 1.8rem;
+  }
+
+  .trust-icons {
+    position: relative;
+    left: 12rem;
+    flex-direction: column;
+  }
+
+  .trust-icons img {
+    margin-bottom: 1.4rem;
+  }
+
+  .testimonial-container {
+    max-height: 32rem;
+    max-width: 22rem;
+    padding: 3rem 0 0 2rem;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .form-container {
+    margin-top: 7rem;
+    max-width: 20rem;
+    border-radius: 2em;
+  }
+
+  .headshots {
+    margin-top: -4.6875rem;
+    margin-left: 2rem;
+  }
+
+  .gray-policy {
+    position: relative;
+    left: 2.625rem;
+  }
+
+  .blue-policy {
+    visibility: hidden;
+  }
+
+  .top-footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .top-footer-4 {
+    margin-left: 2%;
+  }
+
+  .mid-footer {
+    flex-direction: column;
+  }
+  .social-country {
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .btm-footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
