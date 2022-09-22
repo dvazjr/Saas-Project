@@ -1,0 +1,3 @@
+# Saas-Project
+
+Built this website as an advanced html/css milestone assignment working through the Devslopes Web Course mid-2022. Cant believe I was able to pull it off! haha Its really important you use all your tools in your toolbox and often so you dont get rusty and actually know what to use and when. Please feel free to add tips. I think the javascript I havent learned yet with that button on the responsive end messed with my port view and it scrolls to the right and messes things up on ipad and mobile size so I will have to fix that when I learn more about javascript. If anyone wants to help me out with that Id be happy to learn! This is my first major assignment and one Im definitely going to be putting on my portfolio. Im proud of it even if it isn't perfect :)
